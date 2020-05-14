@@ -2,7 +2,9 @@ package com.yzw.soundtouch;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Environment;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -38,6 +40,9 @@ public class RecordActivity extends Activity {
     private TextView tempoShow;
     private SeekBar tempoSeekBar;
     private Button tempoResetButton;
+
+    private TextView rate_show;
+    private SeekBar rate_seek;
 
     private String lastRecordFile;
 
@@ -102,6 +107,10 @@ public class RecordActivity extends Activity {
 
         log = (TextView) findViewById(R.id.log);
         log.setMovementMethod(ScrollingMovementMethod.getInstance());
+
+        rate_seek = (SeekBar) findViewById(R.id.rate_seek);
+        rate_show = (TextView) findViewById(R.id.rate_show);
+        rate_seek.setOnSeekBarChangeListener(onRateSeekBarListener);
     }
 
     protected void startEncodeDecode() {
@@ -154,6 +163,8 @@ public class RecordActivity extends Activity {
                     finishEncodeDecode = false;
                     startEncodeDecode();
                     break;
+                default:
+                    break;
             }
             return true;
         }
@@ -182,8 +193,9 @@ public class RecordActivity extends Activity {
         @Override
         public void onStopTrackingTouch(SeekBar seekBar) {
 
-            float pitch = (seekBar.getProgress() - 1000) / 100.0f;
-            soundTouch.setPitchSemi(pitch);
+            float pi = seekBar.getProgress() - 12;
+            Log.e("audioparams",""+pi);
+            soundTouch.setPitchSemi(pi);
             playerLayout.setClickable(true);
             log.setText("修改音高\n" + log.getText());
             if (isPlaying) {
@@ -203,8 +215,8 @@ public class RecordActivity extends Activity {
         public void onProgressChanged(SeekBar seekBar, int progress,
                                       boolean fromUser) {
 
-            float pitch = (progress - 1000) / 100.0f;
-            pitchShow.setText("音调: " + pitch);
+            float pi = seekBar.getProgress() - 12;
+            pitchShow.setText("音调: " + pi);
         }
     };
 
@@ -238,7 +250,39 @@ public class RecordActivity extends Activity {
         }
     };
 
+    private SeekBar.OnSeekBarChangeListener onRateSeekBarListener = new SeekBar.OnSeekBarChangeListener() {
+
+        @Override
+        public void onStopTrackingTouch(SeekBar seekBar) {
+            float r = seekBar.getProgress() - 50;
+
+            soundTouch.setRateChange(r);
+            log.setText("修改变速变声率\n" + log.getText());
+            playerLayout.setClickable(true);
+            if (isPlaying) {
+                soundTouchRec.stopPlay();
+                soundTouchRec.startPlay(getFileToPlay());
+                log.setText("开始播放" + getFileToPlay() + "\n" + log.getText());
+                playerText.setText("停止");
+            }
+
+        }
+
+        @Override
+        public void onStartTrackingTouch(SeekBar seekBar) {
+            playerLayout.setClickable(false);
+        }
+
+        @Override
+        public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+            float r = progress - 50;
+            rate_show.setText("变速变音率: " + r);
+
+        }
+    };
+
     protected String getFileToPlay() {
+        //lastRecordFile = Environment.getExternalStorageDirectory() + File.separator + "abc" + File.separator + "ala.pcm";
         return lastRecordFile;
     }
 

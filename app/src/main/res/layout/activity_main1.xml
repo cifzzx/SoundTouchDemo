@@ -97,8 +97,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:max="3000"
-            android:progress="1000" />
+            android:max="24"
+            android:progress="12"  />
 
         <Button
             android:id="@+id/button_reset_pitch"
@@ -136,6 +136,37 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="归零" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rate_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="变速变音率: 0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/rate_seek"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:max="150"
+            android:progress="50" />
+
+        <Button
+            android:id="@+id/button_rate_seek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="归零" />
+
     </LinearLayout>
 
     <TextView

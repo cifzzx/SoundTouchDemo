@@ -9,6 +9,7 @@ import android.media.MediaRecorder;
 import android.os.Environment;
 import android.util.Log;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -127,6 +128,7 @@ public class SoundStreamAduioRecorder {
             this.fileName = fileName;
             if (fileName != null) {
                 try {
+                    //playInputStream = new FileInputStream(Environment.getExternalStorageDirectory() + File.separator + "abc" + File.separator + "ala.pcm");
                     playInputStream = context.openFileInput(fileName);
                 } catch (FileNotFoundException e) {
                 }

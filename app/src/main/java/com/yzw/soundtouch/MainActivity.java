@@ -74,11 +74,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void initPlayer() {
-        f = new File("/sdcard/bjbj.mp3");
+        f = new File("/sdcard/aabb.wav");
         if (!f.exists()) {
             try {
                 //InputStream is = this.getResources().openRawResource(R.raw.bjbj);
-                InputStream is = this.getResources().getAssets().open("bjbj.mp3");
+                InputStream is = this.getResources().getAssets().open("aabb.wav");
                 int size = is.available();
                 byte[] buffer = new byte[size];
                 is.read(buffer);
