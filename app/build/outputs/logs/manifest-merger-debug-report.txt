@@ -1,0 +1,170 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [:soundtouch_library] /Users/cifz/Android/9xiu/code2/SoundTouchDemo/soundtouch_library/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/a789400832a3e82ef11851d8d2195525/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/afaeefec977d76f987007169d7ef7f58/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/515191393855d446980c201a4051d916/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/6d9390dc4770b472ceabc88bee8fc367/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/d45bbc977c7ce55f5cef6c444bb29246/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b800fd3097b609bcc09c59aae136e468/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b08570a976a4421ab00b20b3f82dc217/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/681a36fe16d8d3f4b100564b7d99e463/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/5ce9825926b6f676e6ae268a66814a2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/28c9cff5e29264be361c6770db70fe62/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/50f791e1a8620c46a7bbb0b4168046aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/cb5217569a33946357f4e89f5e277e28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/7599947400ce89d00a80870ca23f72a7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/f101d58c324fe1b583b866cb5eba896c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/3a097e58eefc88d233f75e90b3d1cd24/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/8d9a96f120b5af2dd1b577a832594213/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/cd3ad478473bfa19fb5ac6e55e5080f0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/56bd7e1a4ff58eb6bd7e6af3051b5629/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/c46582489f823261b8c92a686b4a1ccd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/beed2f04ba38ff90fe9276da670a366d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b7f518c241b1eb11ab0efe026b53f097/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/90b85562d874d2b6f791a878a4c8cd43/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/168c01fa7b4cb4ec2ac5dc7d131d8300/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/6d89310b08431724b96eb5811ba2ecb6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/ef010e1d8833f9a1c69e6e0568e2b928/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/8f85b8fb0be3a0a0e8d499930e8b550e/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:7:22-68
+application
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:9:5-25:19
+MERGED from [:soundtouch_library] /Users/cifz/Android/9xiu/code2/SoundTouchDemo/soundtouch_library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-16:19
+MERGED from [:soundtouch_library] /Users/cifz/Android/9xiu/code2/SoundTouchDemo/soundtouch_library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-16:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/3a097e58eefc88d233f75e90b3d1cd24/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/3a097e58eefc88d233f75e90b3d1cd24/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/8d9a96f120b5af2dd1b577a832594213/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/8d9a96f120b5af2dd1b577a832594213/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/3a097e58eefc88d233f75e90b3d1cd24/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from [:soundtouch_library] /Users/cifz/Android/9xiu/code2/SoundTouchDemo/soundtouch_library/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.yzw.soundtouch.MainActivity
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:13:9-21:20
+	android:label
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:15:13-45
+	android:name
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.yzw.soundtouch.RecordActivity
+ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:22:9-24:61
+	android:screenOrientation
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml:23:13-43
+uses-sdk
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+MERGED from [:soundtouch_library] /Users/cifz/Android/9xiu/code2/SoundTouchDemo/soundtouch_library/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:soundtouch_library] /Users/cifz/Android/9xiu/code2/SoundTouchDemo/soundtouch_library/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/a789400832a3e82ef11851d8d2195525/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/a789400832a3e82ef11851d8d2195525/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/afaeefec977d76f987007169d7ef7f58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/afaeefec977d76f987007169d7ef7f58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/515191393855d446980c201a4051d916/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/515191393855d446980c201a4051d916/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/6d9390dc4770b472ceabc88bee8fc367/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/6d9390dc4770b472ceabc88bee8fc367/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/d45bbc977c7ce55f5cef6c444bb29246/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/d45bbc977c7ce55f5cef6c444bb29246/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b800fd3097b609bcc09c59aae136e468/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b800fd3097b609bcc09c59aae136e468/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b08570a976a4421ab00b20b3f82dc217/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b08570a976a4421ab00b20b3f82dc217/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/681a36fe16d8d3f4b100564b7d99e463/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/681a36fe16d8d3f4b100564b7d99e463/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/5ce9825926b6f676e6ae268a66814a2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/5ce9825926b6f676e6ae268a66814a2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/28c9cff5e29264be361c6770db70fe62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/28c9cff5e29264be361c6770db70fe62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/50f791e1a8620c46a7bbb0b4168046aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/50f791e1a8620c46a7bbb0b4168046aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/cb5217569a33946357f4e89f5e277e28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/cb5217569a33946357f4e89f5e277e28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/7599947400ce89d00a80870ca23f72a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/7599947400ce89d00a80870ca23f72a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/f101d58c324fe1b583b866cb5eba896c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/f101d58c324fe1b583b866cb5eba896c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/3a097e58eefc88d233f75e90b3d1cd24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/3a097e58eefc88d233f75e90b3d1cd24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/8d9a96f120b5af2dd1b577a832594213/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/8d9a96f120b5af2dd1b577a832594213/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/cd3ad478473bfa19fb5ac6e55e5080f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/cd3ad478473bfa19fb5ac6e55e5080f0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/56bd7e1a4ff58eb6bd7e6af3051b5629/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/56bd7e1a4ff58eb6bd7e6af3051b5629/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/c46582489f823261b8c92a686b4a1ccd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/c46582489f823261b8c92a686b4a1ccd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/beed2f04ba38ff90fe9276da670a366d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/beed2f04ba38ff90fe9276da670a366d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b7f518c241b1eb11ab0efe026b53f097/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/b7f518c241b1eb11ab0efe026b53f097/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/90b85562d874d2b6f791a878a4c8cd43/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/90b85562d874d2b6f791a878a4c8cd43/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/168c01fa7b4cb4ec2ac5dc7d131d8300/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/168c01fa7b4cb4ec2ac5dc7d131d8300/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/6d89310b08431724b96eb5811ba2ecb6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/6d89310b08431724b96eb5811ba2ecb6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/ef010e1d8833f9a1c69e6e0568e2b928/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/cifz/.gradle/caches/transforms-2/files-2.1/ef010e1d8833f9a1c69e6e0568e2b928/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/8f85b8fb0be3a0a0e8d499930e8b550e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/cifz/.gradle/caches/transforms-2/files-2.1/8f85b8fb0be3a0a0e8d499930e8b550e/AndroidManifest.xml:20:5-44
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/src/main/AndroidManifest.xml

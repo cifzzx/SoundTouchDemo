@@ -9,6 +9,7 @@ import android.media.MediaRecorder;
 import android.os.Environment;
 import android.util.Log;
 
+import com.smp.soundtouchandroid.lame.SimpleLame;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,8 +23,10 @@ import java.util.Date;
  */
 public class SoundStreamAduioRecorder {
     private static final String TAG = SoundStreamAduioRecorder.class.getSimpleName();
-
+    private final static int AUDIO_SAMPLE_RATE = 22050;
     private AudioRecord mAudioRecorder = null;
+    //输出MP3的码率
+    private static final int BIT_RATE = 32;
 
     private AudioTrack mAudioTrack;
 
@@ -47,9 +50,12 @@ public class SoundStreamAduioRecorder {
 
     private SoundTouch soundTouch;
 
+    private String mp3Path;
+
     public SoundStreamAduioRecorder(Context context, SoundTouch soundtouch) {
         this.soundTouch = soundtouch;
         this.context = context;
+        mp3Path = getBasePath();
     }
 
 
@@ -160,7 +166,7 @@ public class SoundStreamAduioRecorder {
                 }
 
                 if (len == -1) {
-                    Log.d(TAG, "file read finish!");
+                    Log.e(TAG, "file read finish!");
                     try {
                         playInputStream.close();
                         playInputStream = context.openFileInput(tuendFileName);
@@ -170,6 +176,7 @@ public class SoundStreamAduioRecorder {
                         e.printStackTrace();
                     }
                 } else if (len != 0) {
+                    Log.e(TAG,"LEN:" + len);
                     mAudioTrack.write(playerBuffer, 0, len);
                 }
 
@@ -274,17 +281,17 @@ public class SoundStreamAduioRecorder {
             return;
         }
 
-        minRecBuffSize = AudioRecord.getMinBufferSize(8000,
+        minRecBuffSize = AudioRecord.getMinBufferSize(AUDIO_SAMPLE_RATE,
                 AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
 
-        mAudioRecorder = new AudioRecord(MediaRecorder.AudioSource.MIC, 8000,
+        mAudioRecorder = new AudioRecord(MediaRecorder.AudioSource.VOICE_COMMUNICATION, AUDIO_SAMPLE_RATE,
                 AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT,
-                minRecBuffSize * 3);
-
+                minRecBuffSize);
+        SimpleLame.init(AUDIO_SAMPLE_RATE, 1, AUDIO_SAMPLE_RATE, BIT_RATE);
         mAudioRecorder.startRecording();
 
         if (minRecBuffSize != 0) {
-            recorderBuffer = new byte[minRecBuffSize * 3];
+            recorderBuffer = new byte[minRecBuffSize];
 
             recordingstart = true;
             recordThread = new RecordThread();
@@ -321,10 +328,10 @@ public class SoundStreamAduioRecorder {
             return;
         }
 
-        minPlayBufferSize = AudioTrack.getMinBufferSize(8000,
+        minPlayBufferSize = AudioTrack.getMinBufferSize(AUDIO_SAMPLE_RATE,
                 AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
 
-        mAudioTrack = new AudioTrack(AudioManager.STREAM_MUSIC, 8000,
+        mAudioTrack = new AudioTrack(AudioManager.STREAM_MUSIC, AUDIO_SAMPLE_RATE,
                 AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT,
                 minPlayBufferSize * 3, AudioTrack.MODE_STREAM);
 
@@ -348,6 +355,42 @@ public class SoundStreamAduioRecorder {
         }
         playThread = null;
 
+    }
+
+    public static short[] toShortArray(byte[] src) {
+
+        int count = src.length >> 1;
+        short[] dest = new short[count];
+        for (int i = 0; i < count; i++) {
+            dest[i] = (short) (src[i * 2] << 8 | src[2 * i + 1] & 0xff);
+        }
+        return dest;
+    }
+
+    public static byte[] toByteArray(short[] src) {
+
+        int count = src.length;
+        byte[] dest = new byte[count << 1];
+        for (int i = 0; i < count; i++) {
+            dest[i * 2] = (byte) (src[i] >> 8);
+            dest[i * 2 + 1] = (byte) (src[i] >> 0);
+        }
+
+        return dest;
+    }
+
+    public  String getBasePath() {
+        String strPath = null;
+        if (!android.os.Environment.getExternalStorageState().equals(android.os.Environment.MEDIA_MOUNTED)) {
+            strPath = context.getFilesDir() + "/" + "clameMp3";
+        } else{
+            strPath = Environment.getExternalStorageDirectory() + "/" + "clameMp3";
+        }
+        File dir = new File(strPath);
+        if(!dir.exists()){
+            dir.mkdirs();
+        }
+        return strPath;
     }
 
     public void stopPlay() {

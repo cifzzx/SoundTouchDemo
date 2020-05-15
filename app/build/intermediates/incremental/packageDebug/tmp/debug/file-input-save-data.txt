@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Fri May 15 18:06:36 CST 2020
+2.base=/Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/build/intermediates/dex/debug/mergeDexDebug/out
+5.set=ASSET
+0.path=nswdmg.mp4
+2.baseType=DIRECTORY
+3.base=/Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/build/intermediates/merged_assets/debug/out
+2.set=DEX
+1.path=lib/armeabi-v7a/libsoundtouch.so
+4.base=/Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/build/intermediates/merged_assets/debug/out
+count=6
+5.baseType=DIRECTORY
+2.path=classes.dex
+5.base=/Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/build/intermediates/merged_assets/debug/out
+4.set=ASSET
+3.path=1.ts
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=aabb.wav
+1.baseType=DIRECTORY
+5.path=bjbj.mp3
+0.base=/Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/build/intermediates/merged_assets/debug/out
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/Users/cifz/Android/9xiu/code2/SoundTouchDemo/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+4.baseType=DIRECTORY
+0.set=ASSET
